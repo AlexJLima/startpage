@@ -1,0 +1,14 @@
+.menu{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}   
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

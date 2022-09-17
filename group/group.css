@@ -1,0 +1,26 @@
+@import url(typography.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.group{
+    width: 150px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.group{
+    background-color: rgba(0, 0, 0, 0.68);
+}

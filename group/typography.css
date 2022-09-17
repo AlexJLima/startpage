@@ -1,0 +1,14 @@
+*{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+.description{
+    list-style: none;
+}
+
+.description li a{
+    text-decoration: none;
+}

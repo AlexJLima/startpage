@@ -1,0 +1,19 @@
+.menu-item{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.menu-item{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-item{
+    background-color: rgba(75, 75, 75,0.5);
+    color: white;
+    border: none;
+}
+
+.menu-item:hover{
+    background-color: rgba(110, 110, 110,0.8);
+}

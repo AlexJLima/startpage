@@ -1,0 +1,15 @@
+.configuration-container{
+    height: 115px;
+}
+
+.configuration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.configuration-container{
+    padding: 20px;
+    box-sizing: border-box;
+}
+

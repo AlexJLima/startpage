@@ -1,0 +1,10 @@
+.information-container{
+    height: 20%;
+}
+
+.information-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

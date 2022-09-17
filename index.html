@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./clock/clock.js"></script>
+    <title>Startpage</title>
+</head>
+<body>
+    <main class="container" id="background-container">
+        <section class="configuration-container">
+            <button class="configuration" id="config-button"></button>
+            <form class="menu" id="menu-container">
+                <input type="file" id="image-button" hidden/>
+                <label for="image-button" class="menu-item">Imagem de fundo</label>
+            </form>
+        </section>
+        <section class="information-container">
+            <h1 id="clock">Clock</h1>
+        </section>
+        <section class="links-container">
+            <div id="estudos" class="group">
+                <h3 class="title">Estudos</h3>
+                <ul class="description">
+                    <li><a href="#">Impacta</a></li>
+                    <li><a href="#">Classroom</a></li>
+                    <li><a href="#">Ebook SO</a></li>
+                    <li><a href="#">Ebook ES</a></li>
+                </ul>
+            </div>
+
+            <div id="streaming" class="group">
+                <h3 class="title">Streaming</h3>
+                <ul class="description">
+                    <li><a href="#">Prime video</a></li>
+                    <li><a href="#">Disney plus</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+
+            <div id="social" class="group">
+                <h3 class="title">Social</h3>
+                <ul class="description">
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">Reddit</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Outlook</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./configuration/configuration.js"></script>
+<script src="./change-image.js"></script>
+</html>
